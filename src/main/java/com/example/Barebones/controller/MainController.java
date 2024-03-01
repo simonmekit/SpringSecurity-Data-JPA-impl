@@ -55,7 +55,10 @@ public class MainController {
 	//
 	// UPDATE users_roles   user_id to point to role_id that is superuser in role table
 	// to enable that id to be superuser!
-	// 
+	//
+	// example:
+	// mysql> update role set name = 'ROLE_SUPER' where id = 2;
+	//
 	@GetMapping("/")
 	public String root(HttpSession session) {
 
