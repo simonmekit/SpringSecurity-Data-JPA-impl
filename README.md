@@ -4,7 +4,7 @@
 #            Basic Student Mgt
 
 
-Java version: 18 Amazone
+Java version: 18 Amazon Corretto
 Mysql-connector-java 8.0.30
 APIs:
   Spring Security, Spring Data JPA, Thymeleaf and bootstrap
